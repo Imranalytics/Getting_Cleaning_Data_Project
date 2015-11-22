@@ -39,6 +39,6 @@ Using the "grep" function, all the columns with mean() and std() values are extr
 
 Using the "merge" function, descriptive activity names are merged with the mean/std values dataset, to get one dataset with descriptive activity names
 
-Lastly, with the help of the "melt" and "dcast" functions of the "reshape2" package, the data is converted into a table containing mean values of all the included features, ordered by the activity name and the subject id, and the data is written to the "tidy_movement_data.txt" file.
+Lastly, with the help of the "melt" and "dcast" functions of the "reshape2" package, the data is converted into a table containing mean values of all the included features, ordered by the activity name and the subject id, and the data is written to the "final_data.txt" file.
 
 A description of the "final_data.txt" file may be found in the "CodeBook.md" file.
